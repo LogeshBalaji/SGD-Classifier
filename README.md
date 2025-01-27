@@ -28,7 +28,7 @@ RegisterNumber:  24900577
 */
 ```
 
-
+```.py
 import pandas as pd  
 from sklearn.datasets import load_iris  
 from sklearn.linear_model import SGDClassifier  
@@ -61,7 +61,7 @@ print(f"Accuracy: {accuracy:.3f}")
 cm = confusion_matrix(y_test, y_pred)  
 print("Confusion Matrix:")  
 print(cm)  
-
+```
 ## Output:
 ![Screenshot 2024-11-10 220510](https://github.com/user-attachments/assets/00caf2af-9d4a-465e-841d-d705d536d12d)
 
